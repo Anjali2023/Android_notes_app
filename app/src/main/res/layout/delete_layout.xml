@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:id="@+id/deletelayout"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+
+    <View
+        android:layout_width="150dp"
+        android:background="@drawable/delete_line"
+        android:layout_margin="10dp"
+        android:layout_height="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Do you really want\n to delete?"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/sans_bold_italic"/>
+
+    <TextView
+        android:id="@+id/nodel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="NO"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/sans_regular"
+        android:background="@drawable/no_del"
+        android:padding="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/yesdel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="YES"
+        android:textSize="18sp"
+        android:textColor="#FFFFFF"
+        android:fontFamily="@font/sans_bold"
+        android:background="@drawable/yes_del"
+        android:padding="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginRight="10dp"/>
+</LinearLayout>
